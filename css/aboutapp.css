@@ -1,4 +1,4 @@
-/* This is my stylesheet for the homepage */
+/* This is my stylesheet for the about page */
 
 
 /* header styles */
@@ -137,14 +137,219 @@ p {
   font-size: 18px;
 }
 
-footer {color: black;  text-align: center;   }
-
-
-
 #preview{
   margin-top: 15px;
 }
 
-h2{
+/* this is my stylesheet for the menupage */
+
+h6 {
+  margin-top: 50px;
+  color: white;
   text-align: center;
+}
+
+
+h1 {
+  color: red;
+  font-family: 'Arimo', sans-serif;
+  font-size: 80px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Oxygen', sans-serif;
+  margin-top: 30px;
+  color: #d8353b;
+  font-size: 40px;
+  text-align: center;
+}
+ .about{
+  color: white;
+}
+
+h3 {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 200px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+#topten {
+  margin-right: 300px;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.center{
+  text-align: center;
+}
+h6{
+  text-align: center;
+}
+
+
+
+/* This is the for the career page */
+}
+.right{
+  text-align: right;
+}
+.border-right{
+  border-right: black solid 2px;
+}
+
+form fieldset,label{
+  text-align: left;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: lightgrey;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+}
+
+#mybtn{
+  text-align:center;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+/* Open page */
+#open {
+     animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+        /* you could also use milliseconds (ms) or something like 2.5s */
+     -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+   }
+
+   @keyframes colorchange
+   {
+     0%   {background: pink;}
+     25%  {background: lightyellow;}
+     50%  {background: lightblue;}
+     75%  {background: lightgreen;}
+     100% {background: pink;}
+   }
+
+   @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+   {
+     0%   {background: pink;}
+     25%  {background: lightyellow;}
+     50%  {background: lightblue;}
+     75%  {background: lightgreen;}
+     100% {background: pink;}
+   }
+   /* home page */
+.image { display: block;
+   width: 50%;
+   margin: 0 auto;
+}
+.hook{
+  display: flex;
+  margin-left: 50px;
+
+
+}
+$responsive-embed-ratios:{
+  default: 16 by 9,
+  vertical: 9 by 16,
+  panorama: 256 by 81,
+  square: 1 by 1,
+}
+.footer{
+  text-align: center;
+}
+.icons{
+  display: inline-flex;
 }

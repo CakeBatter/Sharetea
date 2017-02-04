@@ -1,3 +1,4 @@
+/* Open page */
 #open {
      animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
         /* you could also use milliseconds (ms) or something like 2.5s */
@@ -21,6 +22,7 @@
      75%  {background: lightgreen;}
      100% {background: pink;}
    }
+   /* home page */
 .image { display: block;
    width: 50%;
    margin: 0 auto;
@@ -38,4 +40,7 @@ $responsive-embed-ratios:{
 }
 .footer{
   text-align: center;
+}
+.icons{
+  display: inline;
 }
