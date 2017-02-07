@@ -25,3 +25,8 @@ window.onclick = function(event) {
 }
 
 document.getElementById("myBtn").style.color = "red";
+
+function replaceText()
+       {
+           document.getElementById("divid").innerHTML = "Thank you for applying at Sharetea! Your application has been submitted."
+       }

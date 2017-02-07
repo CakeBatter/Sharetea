@@ -106,7 +106,7 @@ ShareTea - Union City - Careers
  </div>
 
 
-<div class="column small-12 medium-2 large-2">
+<div class="column small-12 medium-1 large-1">
 <p> &nbsp;</p>
 </div>
 </section><!--attract the viewer end-->
@@ -170,28 +170,17 @@ ShareTea - Union City - Careers
      <div id="#pinit-wrapper" class="column small-12 medium-8 large-8"></div>
 
 
-
+<div id="divid">
        <form id="application" action="apply.html">
          <div class="column small-12 medium-10 large-8" id="apply">
          </div>
       <fieldset>
         <legend>   Apply Here!</legend>
-        <label for="firstname">First</label>
-        <input type="text" id="firstname" name="firstname" placeholder="John"/>
-
-        <label for="lastname">Last</label>
-          <input type="text" id="lastname" name="lastname" placeholder="Jones"/>
+        <label for="firstlast">First Last</label>
+        <input type="text" id="firstlast" name="firstlast" placeholder="John Doe"/>
 
        <label for="age">Age:</label>
        <input type="text" name="age" id="age" placeholder="1-99"/>
-
-       <label for="gender"> Gender: </label>
-
-     <input id="female" type="radio" name="gender" value="f">
-       <label for="female">Female</label>
-
-       <input id="male" type="radio" name="gender" value="m">
-       <label for="male">Male</label>
 
 
            <label for="email">Email:</label>
@@ -202,14 +191,8 @@ ShareTea - Union City - Careers
 
        <fieldset>
      <p> Work Experience:</p>
-     <textarea name="work" cols="8" rows="4">
+     <textarea name="work" cols="8" rows="1">
        </textarea>
-
-
-        <p> Tell us more about yourself and why you would be a good fit for Sharetea:</p>
-        <textarea name="information" cols="8" rows="4">
-          </textarea>
-
 
         <p> Where did you hear about us?</p>
         <select name="options">
@@ -223,13 +206,13 @@ ShareTea - Union City - Careers
        <p>Attach Resume</p>
         <input type="file" name="upload"/> <br />
         <input type="submit" value="Upload"/>
-          <a href="submit.html" class="button--style-red">Submit</a>
-
+<input type="button" onclick="replaceText()" value="Submit" />
       </fieldset>
 
      </form>
 
 
+</div>
      </div>
      </div>
 

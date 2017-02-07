@@ -269,12 +269,12 @@ form fieldset,label{
 }
 
 .modal-header {
-    padding: 2px 16px;
+    padding: 2px 15px;
     background-color: black;
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 2px 15px;}
 
 .modal-footer {
     padding: 2px 16px;
@@ -282,9 +282,7 @@ form fieldset,label{
     color: white;
 }
 
-#mybtn{
-  text-align:center;
-}
+
 
 /* Add Animation */
 @-webkit-keyframes slideIn {
@@ -338,6 +336,10 @@ form fieldset,label{
 .hook{
   display: flex;
   margin-left: 50px;
+
+  .buttoncenter{
+    text-align:center;
+  }
 
 
 }
